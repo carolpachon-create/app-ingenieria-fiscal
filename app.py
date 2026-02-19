@@ -64,7 +64,7 @@ else:
             try:
                 # Conectar con Google Gemini
                 genai.configure(api_key=api_key)
-                modelo = genai.GenerativeModel(model_name="gemini-1.5-pro", system_instruction=SUPER_PROMPT)
+                modelo = genai.GenerativeModel(model_name="gemini-1.5-pro-latest", system_instruction=SUPER_PROMPT)
                 
                 with st.spinner('Analizando contabilidad, aplicando normativa 2025 y generando tablas... (Puede tardar hasta 1 minuto)'):
                     
