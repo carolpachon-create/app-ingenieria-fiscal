@@ -70,4 +70,6 @@ else:
                 m1, m2, m3 = st.columns(3)
                 m1.metric("Liquidez General", "1.85 ✅", "Óptimo")
                 m2.metric("Endeudamiento", "45% ✅", "Sano")
-                m3.metric("ROA (Económica)", "12% 🚀", "("💡 **Conclusión:** La empresa presenta una estructura financiera muy sólida, sin riesgo de quiebra a corto plazo y con una excelente rentabilidad sobre sus activos.")
+                m3.metric("ROA (Económica)", "12% 🚀", "Alta Rentabilidad")
+                
+                st.info("💡 **Conclusión:** La empresa presenta una estructura financiera muy sólida, sin riesgo de quiebra a corto plazo y con una excelente rentabilidad sobre sus activos.")
